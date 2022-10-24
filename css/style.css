@@ -1,0 +1,110 @@
+/* Alignment and margins*/
+.center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-top {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.padding-top {
+  padding-top: 80px;
+}
+
+
+.padding-bottom {
+  padding-bottom: 80px;
+}
+
+.translate-up{
+  transform: translate(0,-50%);
+}
+
+
+.navbar{
+  background-color: #2c2c2c;
+  height: 62px;
+}
+
+.white{
+  color: #f2f4f5;
+}
+
+body{
+  background-color: #2c2c2c;
+}
+
+
+
+#One{
+  background-color: #f2f4f5;
+
+}
+
+#Two{
+  background-color: #f2f4f5;
+
+}
+
+#Three{
+  background-color: #53c7db;
+}
+
+.four{
+  background-color:#2c2c2c;
+  height: auto;
+}
+
+body{
+  font-size: 14px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+h2{
+  color: #2c2c2c;
+  font-size: 20px;
+}
+
+h3{
+  color: #2c2c2c;
+  font-size: 20px;
+  font-style: italic;
+}
+
+h4{
+  color: #2c2c2c;
+  font-size: 18px;
+}
+
+h5{
+  color: #ffffff;
+  font-size: 18px;
+}
+
+p{
+  color: #ffffff;
+  font-size: 14px;
+}
+
+a{
+  color: #ffffff;
+}
+
+a:hover{
+  color: #ffffff;
+}
+
+.mybutton:hover{
+  background-color: grey;
+}

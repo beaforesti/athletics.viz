@@ -27,69 +27,163 @@
 
 
 <body>
-
   <!--Nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <a class="navbar-brand" href="#">Athletics Viz</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
+    <a class="navbar-brand" href="index.html"><b>Athletics Viz<b><img src="assets/icon_logo_white.png" alt="Logo" style=" margin:7px; width:28px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon white"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Racewalking</a>
+          <a class="nav-link" href="WCH22_Oregon.html">World Chmapionships</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            World Championships
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Oregon 2022</a>
-            <a class="dropdown-item" href="#">Doha 2019</a>
-            <a class="dropdown-item" href="#">London 2017</a>
-          </div>
+        <li class="nav-item">
+        <a class="nav-link" href="HallOfFame.html">HALL OF FAME</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div class='tableauPlaceholder' id='viz1665404399697' style='position: relative; display: block; margin-left: auto; margin-right: auto;'><noscript><a href='#'><img alt='Home '
-          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;At&#47;AthleticsViz_16650469884900&#47;Home&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-      <param name='embed_code_version' value='3' />
-      <param name='site_root' value='' />
-      <param name='name' value='AthleticsViz_16650469884900&#47;Home' />
-      <param name='tabs' value='no' />
-      <param name='toolbar' value='yes' />
-      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;At&#47;AthleticsViz_16650469884900&#47;Home&#47;1.png' />
-      <param name='animate_transition' value='yes' />
-      <param name='display_static_image' value='yes' />
-      <param name='display_spinner' value='yes' />
-      <param name='display_overlay' value='yes' />
-      <param name='display_count' value='yes' />
-      <param name='language' value='it-IT' />
-      <param name='filter' value='publish=yes' /></object></div>
-  <script type='text/javascript'>
-    var divElement = document.getElementById('viz1665404399697');
-    var vizElement = divElement.getElementsByTagName('object')[0];
-    if (divElement.offsetWidth > 800) {
-      vizElement.style.width = '1200px';
-      vizElement.style.height = '3827px';
-    } else if (divElement.offsetWidth > 500) {
-      vizElement.style.width = '1200px';
-      vizElement.style.height = '3827px';
-    } else {
-      vizElement.style.width = '100%';
-      vizElement.style.height = '3277px';
-    }
-    var scriptElement = document.createElement('script');
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-  </script>
+  <!-- Section 1: The title-->
+  <div class="container-fluid" id="One">
+    <div class="container padding-bottom">
+      <div class="row padding-top">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">
+          <div><img src="assets/home_logo_big.png" alt="home-logo-big" class="align-center" width="100%"></div>
+          <h3 class="text-center"><b>Visualizing sport results.<br>The narrative role of athletics visualizations</b></h3>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div>
+      <div class="row padding-top">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">
+          <div>
+            <img src="assets/logo_evolution.svg" alt="logos" class="align-center" width="200px">
+          </div>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div>
+      <div class="row padding-top padding-bottom">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">
+          <h4 class="text-center">Every single number has a <b>story</b>. <br>Eevery result has a <b>context</b>.<br>So, what does it mean to be the fastest in a race?</h4>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- Section 2: The mission-->
+  <div class="container-fluid" id="Three">
+    <div class="container">
+      <div class="row">
+        <div>
+          <img src="assets/foto_oregon.png" class="translate-up" alt="foto" width="100%">
+        </div>
+      </div>
+      <div class="row padding-bottom">
+        <div class="col-3">
+          <div>
+            <img src="assets/kimberly.png" class="align-center" alt="foto" width="80%">
+          </div>
+        </div>
+        <div class="col-6">
+          <h2 class="text-center center-top"><b>World Championships</b>
+            <br>
+            <hr width="100%" color="#2c2c2c" size="5px" />
+            Oregon 2022
+          </h2>
+
+        </div>
+        <div class="col-3">
+          <div>
+            <img src="assets/stano.png" class="align-center" alt="foto" width="80%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid four">
+    <div class="container padding-top padding-bottom">
+      <div class="row">
+        <div class="col-sm-6">
+          <h5 class="text-left center-top">Choose a race and watch it through gaps and positions.</h5>
+        </div>
+        <div class="col-sm-6">
+          <img src="assets/gap.png" alt="gap" class="align-center" width="100%">
+        </div>
+      </div>
+    </div>
+    <hr width="75%" color="#f2f4f5" size="3px" />
+  </div>
+
+  <div class="container-fluid four">
+    <div class="container padding-top padding-bottom">
+      <div class="row">
+        <div class="col-sm-6">
+          <h5 class="text-left center-top">Select one or more athletes and compare their <b>paces</b>.</h5>
+        </div>
+        <div class="col-sm-6">
+          <img src="assets/pace.png" alt="gap" class="align-center" width="100%">
+        </div>
+      </div>
+    </div>
+    <hr width="75%" color="#f2f4f5" size="3px" />
+  </div>
+
+  <div class="container-fluid four">
+    <div class="container padding-top padding-bottom">
+      <div class="row">
+        <div class="col-sm-6">
+          <h5 class="text-left center-top">Compare the all-time medallists in the <b>HALL OF FAME</b>.</h5>
+        </div>
+        <div class="col-sm-6">
+          <img src="assets/halloffame.png" alt="gap" class="align-center" width="100%">
+        </div>
+      </div>
+    </div>
+    <hr width="75%" color="#f2f4f5" size="3px" />
+  </div>
+
+  <div class="container-fluid four">
+    <div class="container padding-top padding-bottom">
+      <div class="row">
+        <div class="col-sm-12">
+          <button type="button" class="btn btn-outline-light align-center mybutton"> <a href="WCH22_Oregon.html">Explore the Viz!</a></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 padding-top">
+          <img src="assets/20k_oregon colombo_bn.jpg" alt="gap" class="align-center" width="50%">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container-fluid four">
+      <div class="container padding-top padding-bottom">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="text-center center-top">Athletics Viz by Beatrice Foresti</p>
+            <p class="text-center center-top">Data from <a href="https://worldathletics.org/">World Athletics<a /> and <a href="https://www.athleticspodium.com/">Athletics Podium</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
 
 </body>
 

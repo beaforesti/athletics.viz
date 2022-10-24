@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_2" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220.71075 47.48448">
+  <g id="graphic">
+    <g>
+      <rect x="184.06226" y=".01466" width="36.64582" height="6.70009" transform="translate(404.76758 6.8914) rotate(-179.95414)" fill="#f4826c"/>
+      <rect x="184.07495" y="13.29" width="24.43055" height="6.70009" transform="translate(392.58044 33.28008) rotate(180)" fill="#2c2c2c"/>
+      <rect x="184.18043" y="26.55066" width="14.65833" height="6.70009" transform="translate(383.01918 59.80141) rotate(180)" fill="#53c7db"/>
+    </g>
+    <g>
+      <rect x="-.78127" y="18.40531" width="14.65833" height="6.70009" transform="translate(28.68227 26.87779) rotate(119.7809)" fill="#53c7db"/>
+      <rect x="8.79773" y="15.47076" width="36.64582" height="6.70009" transform="translate(57.14348 5.09564) rotate(120.6728)" fill="#f4826c"/>
+      <rect x="2.30355" y="22.16453" width="24.43055" height="6.70009" transform="translate(6.25727 53.68435) rotate(-134.01316)" fill="#2c2c2c"/>
+    </g>
+    <g>
+      <rect x="81.92912" y="18.40531" width="14.65833" height="6.70009" transform="translate(152.47365 -44.90913) rotate(119.7809)" fill="#53c7db"/>
+      <rect x="91.50812" y="15.47076" width="36.64582" height="6.70009" transform="translate(182.04731 -66.04312) rotate(120.6728)" fill="#f4826c"/>
+      <rect x="85.01394" y="22.16453" width="24.43055" height="6.70009" transform="translate(146.43679 113.16803) rotate(-134.01316)" fill="#2c2c2c"/>
+    </g>
+    <g>
+      <rect x="120.13377" y="36.41653" width="15.88448" height="7.26054" transform="translate(43.98748 -64.53011) rotate(33.83441)" fill="#53c7db"/>
+      <rect x="106.62424" y="13.95388" width="39.7112" height="7.26054" transform="translate(32.54519 -68.91807) rotate(34.72631)" fill="#f4826c"/>
+      <rect x="119.513" y="28.08841" width="26.47413" height="7.26054" transform="translate(254.87385 -29.22751) rotate(140.04035)" fill="#2c2c2c"/>
+    </g>
+  </g>
+</svg>
