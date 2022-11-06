@@ -102,8 +102,41 @@ a{
 
 a:hover{
   color: #ffffff;
+  font-family: inherit;
+}
+
+.mybutton{
+  color: #f2f4f5;
 }
 
 .mybutton:hover{
   background-color: grey;
+}
+
+.dropdown-item:{
+  background-color: #53c7db;
+  color:#000000;
+}
+
+.dropdown-item:hover{
+  background-color: #53c7db;
+  color:#000000;
+}
+
+.dropdown-menu{
+  background-color: #ffffff;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.cover img{
+  opacity: 0.5;
+}
+
+.cover img:hover {
+  opacity: 1.0;
 }
