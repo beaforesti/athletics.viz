@@ -133,8 +133,13 @@ a:hover{
     height: 100%;
   }
 
+.cover{
+  padding-bottom: 15px;
+}
+
 .cover img{
   opacity: 0.5;
+
 }
 
 .cover img:hover {
