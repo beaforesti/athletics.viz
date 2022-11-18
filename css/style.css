@@ -22,6 +22,10 @@
   padding-top: 80px;
 }
 
+.padding-top-s {
+  padding-top: 40px;
+}
+
 
 .padding-bottom {
   padding-bottom: 80px;
@@ -35,6 +39,10 @@
   transform: translate(0,-50%);
 }
 
+.fixx{
+  position: fixed;
+  top:0;
+}
 
 .navbar{
   background-color: #2c2c2c;
@@ -67,6 +75,11 @@
 .four{
   background-color:#2c2c2c;
   height: auto;
+}
+
+.whitebg{
+  background-color: #f2f4f5;
+
 }
 
 body{
